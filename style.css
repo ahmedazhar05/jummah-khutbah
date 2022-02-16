@@ -1,0 +1,174 @@
+/* @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap'); */
+@font-face {
+  /*source url: 'https://github.com/fawazahmed0/quran-api/blob/1/fonts/al-qalam-quran-majeed.ttf' */
+  src: url('./assets/al-qalam-quran-majeed.ttf');
+  font-family: 'al-qalam-quran-majeed';
+}
+@font-face {
+  /*source url: 'https://fonts.google.com/specimen/Patua+One' */
+  src: url('./assets/PatuaOne-Regular.ttf');
+  font-family: 'Patua One';
+}
+/*@font-face {
+  src: url('./noorehuda.ttf');
+  font-family: 'noorehuda';
+}*/
+body{
+  background: white;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid lightgrey;
+  font-family: 'Patua One', cursive;
+  overflow: hidden;
+  max-width: 800px;
+}
+p{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+h1{
+  color : green;
+  text-align : center;
+}
+span.mean{
+  font-weight:bolder;
+}
+span.highlight{
+  color: red;
+}
+div.list{
+  padding-left: 10px;
+  font-size: 1em;
+  color: black;
+}
+div.list::before{
+  content: "•";
+  font-size: 1.4em;
+  padding-right: 10px;
+}
+div.arabic{
+  direction : rtl;
+  font-family: 'al-qalam-quran-majeed';
+  font-size: 1.8em;
+  text-align: center;
+  background-color: lightyellow;
+  border-top: solid 1px #ff7a00;
+  border-bottom: solid 1px #ff7a00;
+  margin-top: 10px;
+}
+div.trans{
+  direction : ltr;
+  font-family : 'Times New Roman';
+  font-size: 1em;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+div.translit{
+  direction : ltr;
+  font-family : 'Times New Roman';
+  font-size: 0.9em;
+  line-height: 1.5em;
+  height: fit-content;
+  /*font-weight: bold;*/
+  text-align: center;
+  background-color: lightcyan;
+  display: none;
+  border-top: solid 1px #0097ff;
+  border-bottom: solid 1px #0097ff;
+}
+
+input#fontSlider{
+  -webkit-appearance: none;
+  background: #eaeaea;
+  height: 10px;
+  width: inherit;
+  position: relative;
+  max-width: 500px;
+  margin: 20px auto;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  min-width: 300px;
+  border-radius: 5px;
+}
+input#fontSlider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #0097ff;
+  border-radius: 5px;
+}
+input#fontSlider::-moz-range-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #0097ff;
+  border-radius: 5px;
+}
+div:last-child{
+  width: inherit;
+  height: fit-content;
+  position: sticky;
+  bottom: 0px;
+  margin-top: 20px;
+  background: white;
+  left: auto;
+  right: auto;
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+div:first-child{
+  display: flex;
+  width: 50%;
+  border: solid white;
+  color: darkslategray;
+  max-width: 300px;
+  background: #c3d94b;
+  border-radius: 10px;
+  position: absolute;
+  margin: auto auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 50px;
+  z-index: 2;
+}
+div #installer{
+  padding: 15px;
+  margin: 0 20px;
+  border-radius: 10px;
+  background: floralwhite;
+  font-family: monospace;
+  color: green;
+  font-weight: bold;
+  border: dashed 1px blue;
+}
+span#close{
+  position: absolute;
+  color: red;
+  background: white;
+  padding: 0 7px;
+  border: solid 1px black;
+  border-radius: 50px;
+  font-family: monospace;
+  left: 97%;
+  top: -7%;
+  cursor: default;
+}
+div#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+  cursor: default;
+}

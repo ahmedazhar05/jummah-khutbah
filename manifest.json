@@ -1,0 +1,22 @@
+{
+  "background_color": "lightyellow",
+  "theme_color": "#008000",
+  "description": "Instructions for a valid Khutbah",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./assets/icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false,
+  "name": "Jum'ah Khutbah",
+  "short_name": "Khutbah",
+  "start_url": "./"
+}
