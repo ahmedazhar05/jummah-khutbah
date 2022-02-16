@@ -1,0 +1,24 @@
+---
+# The following content lists out all the sources from which most of the 
+# information was collected, which helped in creating this project.
+Information:
+	- https://islamcan.com/islamic-articles/jumah-khutbah-translations.shtml
+	- http://www.khutbahsonline.com/index.php/jum-ah/simplified-jum-ah-khutbah
+	- https://questionsonislam.com/article/short-explanation-about-friday-prayer-and-sermon
+	- https://www.islamweb.net/emerath/index.php?page=articles&id=16774
+	- http://www.islamtomorrow.com/khutbahs/opening.htm
+	- https://www.islamicfinder.org/duas/masnoon/darood-e-ibraheemi
+	- https://www.wikihow.com/Deliver-a-Khutbah
+	- http://www.khutbahcentral.com/kc/Layout_2.pdf
+	- http://cubenetwork.org/wp-content/uploads/2016/02/CUBE-JUMAH-TEMPLATE-2016.pdf
+	- https://www.irfi.org/articles3/articles_4701_4800/how%20to%20give%20khutbashtml.htm
+	- https://www.scribd.com/doc/82049145/Jummah-Khutbah-Duas-English
+	- https://www.alislam.org/quran/1
+
+# The following content lists out some sources from which assets like fonts
+# and icons have been acquired, which helped style this webapp
+Assets:
+  - https://www.iconfinder.com/icons/2167871/green_mosque_silo_icon
+  - https://fonts.google.com/specimen/Patua+One
+  - https://github.com/fawazahmed0/quran-api
+  - https://jquery.com
