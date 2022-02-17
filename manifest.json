@@ -18,5 +18,6 @@
   "prefer_related_applications": false,
   "name": "Jum'ah Khutbah",
   "short_name": "Khutbah",
-  "start_url": "./"
+  "orientation": "portrait-primary",
+  "start_url": "/jummah-khutbah/"
 }
