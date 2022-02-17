@@ -5,7 +5,6 @@ self.addEventListener('install', function(e) {
     caches.open(cacheName).then(function(cache) {
       return cache.addAll([
         '/jummah-khutbah/',
-        '/jummah-khutbah/assets/',
         '/jummah-khutbah/index.html',
         '/jummah-khutbah/myscript.js',
         '/jummah-khutbah/sw.js',
